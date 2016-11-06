@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<question type ='multiple' title='Fora da Internet'>
+    <author>Caio Ferreira e Fausto Vanin</author>
+    <description>
+	Procura esses produtos fora da internet
+    </description> 
+    <input type='checkbox' id='sim' implies='none' caption='Sim'/>
+    <input type='checkbox' id='nao' implies='none' caption='Nao'/>
+    <input type='text' id='onde' maxLength='100' caption="Onde"/>
+</question>

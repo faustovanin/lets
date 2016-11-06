@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<question type ='multiple' title='Produtos que compraria'>
+<author>Caio Ferreira e Fausto Vanin</author>
+    <description>
+        Caso fosse adquirir algum produto pela internet, qual destes lhe interessaria?
+    </description>
+    <input type='checkbox' id='bijuteria' implies='none' caption='Bijuteria'/>
+    <input type='checkbox' id='calcado' implies='none' caption='Calçado'/>
+    <input type='checkbox' id='carro' implies='none' caption='Carro'/>
+    <input type='checkbox' id='celular' implies='none' caption='Telefone Celular'/>
+    <input type='checkbox' id='computador' implies='none' caption='Computador'/>
+    <input type='checkbox' id='instrumento' implies='none' caption='Instrumento Musical'/>
+    <input type='checkbox' id='perfume' implies='none' caption='Perfume'/>
+    <input type='checkbox' id='tv' implies='none' caption='Televisor'/>
+</question>
+
+

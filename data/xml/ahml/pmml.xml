@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<PMML version="4.0" xmlns="http://www.dmg.org/PMML-4_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Header copyright="DMG.org"/>
+  <DataDictionary numberOfFields="8">
+	 <DataField name="p1" optype="numerical" dataType="string"/>
+	 <DataField name="p2" optype="numerical" dataType="string"/>
+  	 <DataField name="p3" optype="categorical" dataType="string">
+	<Value value='sim'/>
+	<Value value='nao'/>
+	<Value value='alguns'/>
+	</DataField>
+	<DataField name="p4" optype="categorical" dataType="string">
+	<Value value='sim'/>
+	<Value value='nao'/>
+	</DataField>
+	<DataField name="p5" optype="categorical" dataType="string">
+	<Value value='eletronicos'/>
+	<Value value='cd'/>
+	<Value value='jogos'/>
+	<Value value='outros'/>
+	</DataField>
+	<DataField name="p6" optype="categorical" dataType="string">
+	<Value value='sim'/>
+	<Value value='nao'/>
+	</DataField>
+	<DataField name="p7" optype="categorical" dataType="string">
+	<Value value='sim'/>
+	<Value value='nao'/>
+	</DataField>
+	<DataField name="p8" optype="categorical" dataType="string">
+	<Value value='foruns'/>
+	<Value value='chats'/>
+	<Value value='redes_rel'/>
+	<Value value='blog'/>
+	<Value value='sites'/>
+	</DataField>
+ </DataDictionary>
+<MiningSchema>
+<MiningField name="p1"/>
+<MiningField name="p2"/>
+<MiningField name="p3"/>
+<MiningField name="p4"/>
+<MiningField name="p5"/>
+<MiningField name="p6"/>
+<MiningField name="p7"/>
+<MiningField name="p8"/>
+</MiningSchema>
+</PMML>

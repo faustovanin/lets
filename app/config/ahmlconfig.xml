@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ahml-global mode="survey" default-repository-url="data/xml/ahml/" >
+    <surveys>
+        <survey file-name="internet.xml" answer-file-name="internet.ans"/>
+    </surveys>
+</ahml-global>

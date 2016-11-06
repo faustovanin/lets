@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <gateway-file url="index.php" />
+    <error-page code="500" page="htm/500.htm" />
+    <template file="htm/template.htm" />
+    <statistics file="stats.xml" />
+    <plugins>
+        <plugin name="counter" url="app/plugins/counter" main-class="CounterObserver" />
+        <default>
+            <data name="reaumentada" url="data/www/reaumentada" />
+        </default>
+    </plugins>
+</configuration>

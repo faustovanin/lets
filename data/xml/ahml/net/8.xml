@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<question type ='multiple' title='Ambientes online'>
+<author>Caio Ferreira e Fausto Vanin</author>
+    <description>
+        De quais ambientes online voce costuma participar?
+    </description> 
+    <input type='checkbox' id='foruns' implies='none' caption='Fóruns'/>
+    <input type='checkbox' id='chats' implies='none' caption='Chats'/>
+    <input type='checkbox' id='rede_rel' implies='none' caption='Redes de Relacionamento'/>
+    <input type='checkbox' id='blog' implies='none' caption='Blogs'/>
+    <input type='checkbox' id='sites' implies='none' caption='Sites de Notícia'/>
+</question>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<survey type="questionnaire" title="Levantamento de dados" date-of-creation="09/1/2009">
+    <owner>Caio Ferreira e Fausto Vanin</owner>
+    <description>
+        Este questionário tem por objetivo saber a sua opinião sobre compra na internet.
+    </description>
+    <disclaimer>
+        Os dados informados nesta pesquisa serão armazenados de forma anonima e têm
+apenas fins de pesquisa, sendo que os autores se comprometem a informar os
+respondentes interessados sobre o andamento do processo de pesquisa e do
+uso feito dos dados informados.
+    </disclaimer>
+    <closing>
+        Obrigado por participar de nossa pesquisa.
+    </closing>
+    <question file='net/1.xml' id='p1'/>
+    <question file='net/2.xml' id='p2'/>
+    <question file='net/3.xml' id='p3'/>
+    <question file='net/4.xml' id='p4'>
+        <if-input id="compras">
+            <if-answer value="sim">
+                <question file='net/5.xml' id='p5'/>
+            </if-answer>
+            <if-answer value="nao">
+                <question file='net/6.xml' id='p6'/>
+            </if-answer>
+        </if-input>
+    </question>
+    <question file='net/7.xml' id='p7'/>
+    <question file='net/8.xml' id='p8'/>
+    <question file='net/9.xml' id='p9'/>
+</survey>

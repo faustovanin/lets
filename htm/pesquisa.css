@@ -1,0 +1,17 @@
+#ahml {
+    background-color: #AAFFAA;
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    height: 90%;
+    overflow: scroll;
+}
+#counter {
+    background-color: #55FF55;
+    position: absolute;
+    bottom: 0px;
+    left: 20%;
+    right: 20%;
+    font-family: monospace;
+    font-weight: bold;
+}

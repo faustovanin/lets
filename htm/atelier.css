@@ -1,0 +1,66 @@
+body {
+    background-color: #AAAAFF;
+}
+h1.banner a:link {
+    color: blue;
+    text-decoration: none;
+}
+h1.banner a:visited {
+    color: blue;
+    text-decoration: none;
+}
+h1.banner a:hover {
+    color: #FF6666;
+    text-decoration: none;
+}
+div#atelier {
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 14pt;
+}
+div#atelier div#login {
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    border: solid thin black;
+    padding-left: 20%;
+    width: 50%;
+}
+div#atelier div#menu {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    background-color: #CCCCFF;
+    padding: 20px;
+    padding-left: 5px;
+}
+div#atelier div#entregas_semana {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    background-color: #CCCCFF;
+}
+div#atelier table td {
+    border: solid thin black;
+}
+div#atelier table.form td{
+    border: none;
+}
+div#atelier tr.aberta {
+    background-color: red;
+}
+div#atelier tr.fechada {
+    
+}
+div#atelier tr.entregue {
+    background-color: green;
+}
+div#atelier tr.pago {
+    background-color: yellow;
+}
+div#counter {
+    position: fixed;
+    bottom:0;
+    right: 0;
+    font-size: 8pt;
+}

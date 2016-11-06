@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<question type="single" title="Ano de formatura">
+    <author>Fausto Vanin</author>
+    <description>
+	Em que ano voce concluiu o curso?
+    </description>
+    <input type="unique" id="ano_egresso" >
+	<option value="2000" caption="2000" />
+	<option value="2001" caption="2001" />
+	<option value="2002" caption="2002" />
+	<option value="2003" caption="2003" />
+	<option value="2004" caption="2004" />
+	<option value="2005" caption="2005" />
+	<option value="2006" caption="2006" />
+	<option value="2007" caption="2007" />
+	<option value="2008" caption="2008" />
+	<option value="2009" caption="2009" />
+    </input>
+</question>
