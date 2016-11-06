@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8' ?>
-<question type ='single' title='Propagandas'>
-    <author>Caio Ferreira e Fausto Vanin</author>
-    <description> 
-	Costuma ler propagandas de sites?
-    </description> 
-    <input type='checkbox' id='sim' implies='none' caption='Sim'/>
-    <input type='checkbox' id='nao' implies='none' caption='Nao'/>
-</question>
